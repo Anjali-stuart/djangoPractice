@@ -1,0 +1,1 @@
+#print("Hello") #server msg this message you will see in command pannel when you runserver
