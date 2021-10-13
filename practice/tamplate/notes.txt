@@ -9,6 +9,7 @@ what model does
 Model defines database
 firt we create model
 than makemigrations and migrate
-
+for ensuring its yourfile no other hacker can post the form the
+values are from same site.
 
 
