@@ -1,0 +1,14 @@
+template inheritance.
+we have to change header for 10 pages.
+only header and footer other contact will be changes. or inserted
+block are used for this to inheritance and add some other feature.
+
+{% extends 'bases.html' %}
+
+what model does
+Model defines database
+firt we create model
+than makemigrations and migrate
+
+
+
