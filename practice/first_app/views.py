@@ -28,8 +28,8 @@ def contact(request):
         phone = request.POST.get('phone')
         email = request.POST.get('email')
         desc = request.POST.get('desc')
-        cntct = Contact(name=name, email=email, phone=phone, desc=desc, date=datetime.today())
-        cntct.save()
+        contact = Contact(name=name, email=email, phone=phone, desc=desc, date=datetime.today())
+        contact.save()
     return render(request, 'contact.html')
 
 
